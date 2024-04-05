@@ -1,9 +1,6 @@
-name: Hellow World
+name: Hello World Workflow
 
-on:
-  push:
-    branches:
-      - master
+on: [push]
 
 jobs:
   build:
@@ -11,4 +8,4 @@ jobs:
 
     steps:
       - name: Print Hello World
-        run: echo Hello, world!
+        run: echo Hello, World!
